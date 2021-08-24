@@ -1,0 +1,373 @@
+{
+    "initialState": {
+        "mylist": [],
+        "doblecero": [
+            {
+                "id": 1,
+                "name": "Doblecero",
+                "rap": "Rap de Luffy",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/WLB-7iDKtwk/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=WLB-7iDKtwk&ab_channel=DobleCero"
+            },
+            {
+                "id": 2,
+                "name": "Doblecero",
+                "rap": "Rap de Liu",
+                "duration": "4:35 minutes",
+                "year": "2019",
+                "ima": "https://i.ytimg.com/vi/A7Wor7hc89M/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=A7Wor7hc89M&ab_channel=DobleCero"
+            },
+            {
+                "id": 3,
+                "name": "Doblecero",
+                "rap": "Rap de L",
+                "duration": "4:28 minutes",
+                "year": "2016",
+                "ima": "https://i.ytimg.com/vi/Qeatc-mdR5Q/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Qeatc-mdR5Q&ab_channel=DobleCero"
+            },
+            {
+                "id": 4,
+                "name": "Doblecero",
+                "rap": "Rap de King",
+                "duration": "5:57 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/GAXP5w67bMk/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=GAXP5w67bMk&ab_channel=DobleCero"
+            },
+            {
+                "id": 5,
+                "name": "Doblecero",
+                "rap": "Rap de Hinata",
+                "duration": "5:08 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/5CqNykID93c/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=5ycAEqcBqZk&ab_channel=DobleCero"
+            },
+            {
+                "id": 6,
+                "name": "Doblecero",
+                "rap": "Rap de Hércules",
+                "duration": "5:15 minutes",
+                "year": "2020",
+                "ima": "https://i.ytimg.com/vi/gSLPSV2q7WU/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=gSLPSV2q7WU&ab_channel=DobleCero"
+            },
+            {
+                "id": 7,
+                "name": "Doblecero",
+                "rap": "Rap de allmight",
+                "duration": "5:07 minutes",
+                "year": "2020",
+                "ima": "https://img.youtube.com/vi/rnHqkmXEgN8/0.jpg",
+                "cover": "https://www.youtube.com/watch?v=_yC4AClM_6k&ab_channel=DobleCero"
+            },
+            {
+                "id": 8,
+                "name": "Doblecero",
+                "rap": "Rap de kakashi",
+                "duration": "4:51 minutes",
+                "year": "2015",
+                "ima": "https://i.ytimg.com/vi/_yC4AClM_6k/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=_yC4AClM_6k&ab_channel=DobleCero"
+            },
+            {
+                "id": 9,
+                "name": "Doblecero",
+                "rap": "Rap de Natsu",
+                "duration": "5:07 minutes",
+                "year": "2019",
+                "ima": "https://i.ytimg.com/vi/iC1-o1eDFuA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=iC1-o1eDFuA&ab_channel=DobleCero"
+            },
+            {
+                "id": 10,
+                "name": "Doblecero",
+                "rap": "Rap de Zeldris",
+                "duration": "4:51 minutes",
+                "year": "2019",
+                "ima": "https://i.pinimg.com/originals/99/cd/d4/99cdd4f399780150041715cf4d71a36f.jpg",
+                "cover": "https://www.youtube.com/watch?v=Ppm38pROzxM&ab_channel=DobleCero"
+            }
+        ],
+        "omar": [
+            {
+                "id": 11,
+                "name": "Omar Cában",
+                "rap": "Death Note",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            },
+            {
+                "id": 12,
+                "name": "Omar Cában",
+                "rap": "Noragami",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            },
+            {
+                "id": 13,
+                "name": "Omar Cában",
+                "rap": "Vampire Knight",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            },
+            {
+                "id": 14,
+                "name": "Omar Cában",
+                "rap": "Caballeros del zodiaco",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            },
+            {
+                "id": 15,
+                "name": "Omar Cában",
+                "rap": "Gintama",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            },
+            {
+                "id": 16,
+                "name": "Omar Cában",
+                "rap": "Naruto",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            },
+            {
+                "id": 17,
+                "name": "Omar Cában",
+                "rap": "Shingeki no kyojin",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            },
+            {
+                "id": 18,
+                "name": "Omar Cában",
+                "rap": "Naruto Shippuden",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            },
+            {
+                "id": 19,
+                "name": "Omar Cában",
+                "rap": "Mulán",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            },
+            {
+                "id": 20,
+                "name": "Omar Cában",
+                "rap": "Bleach",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/R-Urd2tQgiA/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=R-Urd2tQgiA"
+            }
+        ],
+        "david": [
+            {
+                "id": 21,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/gVvd_G6pAsc/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=mGPjLinWsO8&ab_channel=DavidDelgado-Laharl-"
+            },
+            {
+                "id": 22,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/Xdb6gAw2zrQ/sddefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=goi5p7CDz78&ab_channel=DavidDelgado-Laharl-"
+            },
+            {
+                "id": 23,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/5pANMZPAAT4/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=aGyOtjS70Z8&ab_channel=DavidDelgado-Laharl-"
+            },
+            {
+                "id": 24,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/gVvd_G6pAsc/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=mGPjLinWsO8&ab_channel=DavidDelgado-Laharl-"
+            },
+            {
+                "id": 25,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/Xdb6gAw2zrQ/sddefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=goi5p7CDz78&ab_channel=DavidDelgado-Laharl-"
+            },
+            {
+                "id": 26,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/5pANMZPAAT4/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=aGyOtjS70Z8&ab_channel=DavidDelgado-Laharl-"
+            },
+            {
+                "id": 27,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/gVvd_G6pAsc/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=mGPjLinWsO8&ab_channel=DavidDelgado-Laharl-"
+            },
+            {
+                "id": 28,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/Xdb6gAw2zrQ/sddefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=goi5p7CDz78&ab_channel=DavidDelgado-Laharl-"
+            },
+            {
+                "id": 29,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/5pANMZPAAT4/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=aGyOtjS70Z8&ab_channel=DavidDelgado-Laharl-"
+            },
+            {
+                "id": 30,
+                "name": "David Delgado",
+                "rap": "Covers latinos",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/gVvd_G6pAsc/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=mGPjLinWsO8&ab_channel=DavidDelgado-Laharl-"
+            }
+        ],
+        "destacados": [
+            {
+                "id": 31,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            },
+            {
+                "id": 32,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            },
+            {
+                "id": 33,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            },
+            {
+                "id": 34,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            },
+            {
+                "id": 35,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            },
+            {
+                "id": 36,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            },
+            {
+                "id": 37,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            },
+            {
+                "id": 38,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            },
+            {
+                "id": 39,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            },
+            {
+                "id": 40,
+                "name": "David Delgado",
+                "rap": "Rap Creepypastas",
+                "duration": "4:35 minutes",
+                "year": "2017",
+                "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
+                "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
+            }
+        ]
+    }
+}
