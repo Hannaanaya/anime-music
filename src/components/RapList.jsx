@@ -1,18 +1,17 @@
 import React from 'react';
-// import './styles/headerSearch.css';
+import './styles/homePrimary.css'
 
-//badgesBox
-const RapList = ({ children}) => {
-    return(
+const RapList = ({ children }) => {
+    return (
         <React.Fragment>
-            <div className="primary-list">
-                <div className="primaryPlaylist">
-                 <h3 className="primaryPlaylist-topic">Lo mejor de la semana</h3>
-                 {/* <h2 className="primaryPlaylist-title">{ name }</h2> */}
-                 { children }
+            <section className="RapList" >
+                <h3 className="primaryPlaylist-topic">Lo mejor de la semana</h3>
+                <div className="primary-list">
+                    <div className='primaryPlaylist-list'>
+                        {children}
+                    </div>
                 </div>
-            </div>
-            
+            </section>
         </React.Fragment>
     );
 }

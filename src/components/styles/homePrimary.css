@@ -1,0 +1,46 @@
+.Home-primary {
+    overflow: auto;
+    margin: 10px;
+}
+
+.Container {
+    /* width: 52%; */
+    overflow: auto;
+}
+
+.primaryPlaylist-topic {
+    color: #888B8E;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.primaryPlaylist-title {
+    margin: 0 0 15px;
+    color: #3F546C;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.primaryPlaylist-list {
+    display: flex;
+}
+
+.primaryPlaylist-list .primaryPlaylistItem {
+    margin-right: 10px;
+}
+
+.primaryPlaylistItem {
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+.primaryPlaylistItem-image {
+    object-fit: cover;
+}
+
+.primaryPlaylistItem-title {
+    margin: 5px 0;
+    color: #44546B;
+    font-size: 14px;
+    font-weight: normal;
+}

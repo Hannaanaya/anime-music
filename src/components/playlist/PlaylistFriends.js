@@ -1,6 +1,6 @@
 import React from 'react';
 import ListFriends from './ListFriends';
-// import '../styles/playlist.css';
+import '../styles/play.css';
 
 const PlaylistFriends = () => {
   return(

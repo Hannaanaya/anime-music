@@ -2,7 +2,7 @@ import React from 'react';
 import cero from '../../static/Doblecero.jpg';
 import omar from '../../static/omar.jpg';
 import david from '../../static/david.jpg';
-// import '../styles/playlist.css';
+import '../styles/play.css';
 
 const ListPlay = () => {
     return(

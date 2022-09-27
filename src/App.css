@@ -1,0 +1,57 @@
+/*home layout*/
+
+.home {
+    background: var(--lightColor);
+    display: grid;
+    height: calc(var(--viewportHeight) *2);
+    height: calc(50vh *2);
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 1fr 150px;
+    grid-template-areas: "sidebar primary""sidebar featuring";
+}
+
+.home-sidebar {
+    grid-area: sidebar;
+}
+
+.home-primary {
+    grid-area: primary;
+}
+
+.home-featuring {
+    grid-area: featuring;
+}
+
+
+/*Sidebar*/
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    background: var(--darkColor);
+    color: white;
+    padding: 1em;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: auto;
+}
+
+
+/*Logo*/
+
+.logo {
+    width: calc(100% - 100px);
+    margin: 0 auto;
+    height: 40px;
+}
+
+.logo-image {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.logo-image img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}

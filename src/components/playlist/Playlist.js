@@ -1,10 +1,10 @@
 import React from 'react';
 import ListPlay from './ListPlay';
-// import '../styles/playlist.css';
+import '../styles/play.css';
 
 const Playlist = () => {
-  return (
-    <React.Fragment>
+    return ( 
+        <React.Fragment>
       <div className="sidebarPlaylist">
         <h2 className="sidebarPlaylist-title">
           Mi Playlist 
@@ -25,7 +25,7 @@ const Playlist = () => {
         </ol>
       </div>     
     </React.Fragment>
-  );
+    );
 }
 
 export default Playlist;
