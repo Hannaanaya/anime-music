@@ -368,6 +368,33 @@
                 "ima": "https://i.ytimg.com/vi/YftHit93vHE/maxresdefault.jpg",
                 "cover": "https://www.youtube.com/watch?v=Kk7mS7vI9eI&ab_channel=DobleCero"
             }
+        ],
+        "infoCero": [
+            {
+                "id": 41,
+                "name": "Doblecero",
+                "foto": "https://yt3.ggpht.com/vjzXwjfqzlfWd9-weObPI3azdr_8wo97j01TyITpz8EotOMlEd1sweEhLR1TpTNwVM8-xjn71w=s900-c-k-c0x00ffffff-no-rj",
+                "descripcionA": "Doble Cero es un Youtuber chileno que comenzó haciendo covers en español latino sobre temas de apertura y / o cierre (openings y endings) de series de Anime. Muchos de los más famosos fanáticodubers y gente que hace covers han usado sus adaptaciones, entre ellos destacan, Ilonqueen , Yuri Fox, Aki chan, The cover Duo, etc. También en este ámbito del doblaje, se encargó de adaptar varias de las canciones de ElSmosh.",
+                "canal": "https://youtube.fandom.com"
+            }
+        ],
+        "infoOmar": [
+            {
+                "id": 42,
+                "name": "Omar Cában",
+                "foto": "https://www.yosoyungamer.cloud/wp-content/uploads/2014/03/1901909_10152158969302200_2065680682_n.jpg",
+                "descripcionA": "Omar Cabán, es un intérprete puertorriqueño que se destaca en subir sus canciones a YouTube. Canta principalmente canciones de anime en español, pero en ocasiones canta otras canciones (J-Pop/K-Pop) y también ha cantado en coreano, japonés e Inglés.",
+                "canal": "https://open.spotify.com"
+            }
+        ],
+        "infoDavid": [
+            {
+                "id": 43,
+                "name": "David Delgado",
+                "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJxXstsPXirjLazNK2XwFFTnGDwJgbzfAnIsk4gmLaJiEZLUQuD7CE7SpJ6wAwexC4nCM&usqp=CAU",
+                "descripcionA": "Youtuber Anisinger 🎥 +400K YouTube, Vocal Coach 🎙 Cantante, Contrataciones 📩 daviddelgadocovers@gmail.com",
+                "canal": "https://www.youtube.com/channel/UCTYUX0gtnf-SMbwSlb8BSpg"
+            }
         ]
     }
 }

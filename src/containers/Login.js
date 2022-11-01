@@ -1,9 +1,8 @@
 import React, { useContext, useState } from 'react';
-import AppContext from '../context/AppContext';
-import './Login.css';
+// import AppContext from '../context/AppContext';
+import '../styles/containers/Login.css';
 
 const Login = ({ searchLogin, setSearchLogin }) => {
-    const { state } = useContext(AppContext);
     const [errorMessages, setErrorMessages] = useState({});
     const [loginUser, setLoginUser] = useState(false);
 

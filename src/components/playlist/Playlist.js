@@ -1,31 +1,31 @@
 import React from 'react';
 import ListPlay from './ListPlay';
-import '../styles/play.css';
+import '../../styles/components/play.css';
 
 const Playlist = () => {
-    return ( 
-        <React.Fragment>
+  return (
+    <React.Fragment>
       <div className="sidebarPlaylist">
         <h2 className="sidebarPlaylist-title">
-          Mi Playlist 
-        <span className="btn warning">
-          Escuchar Playlist
-        </span></h2>
-          <ol className="myPlaylist">
-            <ListPlay />
-            <ListPlay />
-            <ListPlay />
-            <ListPlay />
-            <ListPlay />
-            <ListPlay />
-            <ListPlay />
-            <ListPlay />
-            <ListPlay />
-            <ListPlay />
+          Mi Playlist
+          <span className="btn warning">
+            Escuchar Playlist
+          </span></h2>
+        <ol className="myPlaylist">
+          <ListPlay />
+          <ListPlay />
+          <ListPlay />
+          <ListPlay />
+          <ListPlay />
+          <ListPlay />
+          <ListPlay />
+          <ListPlay />
+          <ListPlay />
+          <ListPlay />
         </ol>
-      </div>     
+      </div>
     </React.Fragment>
-    );
+  );
 }
 
 export default Playlist;

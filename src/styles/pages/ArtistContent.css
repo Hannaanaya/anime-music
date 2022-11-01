@@ -1,0 +1,32 @@
+.ArtistContent {
+    display: inline-block;
+}
+
+.ArtistContent .ArtistContentItem {
+    width: 250px;
+    padding: 10px;
+}
+
+
+.ArtistContentItem-title {
+    margin: 0 0 15px;
+    color: #3F546C;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ArtistContentItem {
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+.ArtistContentItem-image {
+    object-fit: cover;
+}
+
+.ArtistContentItem-title {
+    margin: 5px 0;
+    color: #44546B;
+    font-size: 14px;
+    font-weight: normal;
+}

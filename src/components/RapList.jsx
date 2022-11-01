@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/homePrimary.css'
+import '../styles/containers/PlaylistContainer.css';
 
 const RapList = ({ children }) => {
     return (

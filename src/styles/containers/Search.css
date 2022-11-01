@@ -1,0 +1,15 @@
+.Search {}
+
+.search input {
+    width: 230px;
+
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px #f0f0f0;
+}
+
+.primary-search {
+    padding: 10px;
+}

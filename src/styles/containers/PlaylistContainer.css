@@ -1,10 +1,9 @@
-.Home-primary {
+.Playlist {
     overflow: auto;
     margin: 10px;
 }
 
 .Container {
-    /* width: 52%; */
     overflow: auto;
 }
 
@@ -14,19 +13,28 @@
     font-weight: 300;
 }
 
+.primary-list {
+    width: 1500px;
+    height: 230px;
+}
+
+.primaryPlaylist-list {
+    display: flex;
+    /* width: 1500px; */
+}
+
+.primaryPlaylist-list .primaryPlaylistItem {
+    margin-right: 10px;
+    width: 250px;
+    height: 180px;
+}
+
+
 .primaryPlaylist-title {
     margin: 0 0 15px;
     color: #3F546C;
     font-size: 20px;
     font-weight: 400;
-}
-
-.primaryPlaylist-list {
-    display: flex;
-}
-
-.primaryPlaylist-list .primaryPlaylistItem {
-    margin-right: 10px;
 }
 
 .primaryPlaylistItem {

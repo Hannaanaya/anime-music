@@ -1,9 +1,10 @@
 import React from 'react';
-import Search from './Search';
-import RapList from './RapList';
-import RapsContent from './RapsContent';
+import Header from '../components/Header';
+import RapList from '../components/RapList';
+import RapsContent from '../components/RapsContent';
 import useInitialState from '../hooks/useInitialState';
-import './styles/homePrimary.css';
+import '../styles/containers/PlaylistContainer.css';
+
 
 const API = 'http://localhost:3001/initialState'
 
@@ -11,8 +12,8 @@ const Container = () => {
     const initialState = useInitialState(API);
     return initialState.length === 0 ? 'Loading...' : (
 
-        <section className="Home-primary">
-            <Search />
+        <section className="Playlist">
+            <Header />
             <div className='Container'>
                 {initialState.mylist.length > 0 &&
                     <RapList>

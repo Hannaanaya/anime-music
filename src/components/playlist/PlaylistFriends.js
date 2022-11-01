@@ -1,9 +1,9 @@
 import React from 'react';
 import ListFriends from './ListFriends';
-import '../styles/play.css';
+import '../../styles/components/play.css';
 
 const PlaylistFriends = () => {
-  return(
+  return (
     <React.Fragment>
       <div className="sidebarPlaylist">
         <h2 className="sidebarPlaylist-title">Playlist de amigos</h2>

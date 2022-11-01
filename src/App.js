@@ -1,31 +1,27 @@
 import React from 'react';
-import logo from './static/logo.jpg';
-import Playlist from './components/playlist/Playlist';
-import PlaylistFriends from './components/playlist/PlaylistFriends';
-import HomePrimary from './components/HomePrimary';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { AppProvider } from './context/AppContext';
+import Home from './pages/Home';
+import Cero from './pages/Cero';
+import Omar from './pages/Omar';
+import David from './pages/David';
+import NotFound from './pages/NotFound';
 import './App.css';
 import './global.css';
 
 const App = () => {
     return (
-        <React.Fragment>
-            <section className="home">
-                <div className="home-sidebar">
-                    <div className="sidebar">
-                        <div className="logo">
-                            <figure className="logo-image">
-                                <img src={logo} alt="logo" width="200px" height="60px" />
-                            </figure>
-                        </div>
-                        <Playlist />
-                        <PlaylistFriends />
-                    </div>
-                </div>
-                <HomePrimary />
-                <Footer />
-            </section>
-        </React.Fragment>
+        <AppProvider>
+            <BrowserRouter>
+                <Routes>
+                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/cero" element={<Cero />} />
+                    <Route exact path="/omar" element={<Omar />} />
+                    <Route exact path="/david" element={<David />} />
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
+            </BrowserRouter>
+        </AppProvider>
     );
 }
 
