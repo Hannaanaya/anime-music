@@ -4,12 +4,13 @@ import RapList from '../components/RapList';
 import RapsContent from '../components/RapsContent';
 import useInitialState from '../hooks/useInitialState';
 import '../styles/containers/PlaylistContainer.css';
-
+import Search from './Search';
 
 const API = 'http://localhost:3001/initialState'
 
-const Container = () => {
+const PlaylistContainer = () => {
     const initialState = useInitialState(API);
+
     return initialState.length === 0 ? 'Loading...' : (
 
         <section className="Playlist">
@@ -33,7 +34,6 @@ const Container = () => {
                 </RapList>
             </div>
 
-
             {/* OMAR CÁBAN */}
             <div className='Container'>
                 <RapList>
@@ -42,7 +42,6 @@ const Container = () => {
                     )}
                 </RapList>
             </div>
-
 
             {/* DAVID DELGADO */}
             <div className='Container'>
@@ -63,6 +62,6 @@ const Container = () => {
             </div>
         </section>
     );
-}
+};
 
-export default Container;
+export default PlaylistContainer;

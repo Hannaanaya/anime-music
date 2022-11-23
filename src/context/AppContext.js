@@ -1,40 +1,33 @@
-import React from 'react'
-import useInitialState from '../hooks/useInitialState';
+// import React from 'react';
+// import useInitialState from '../hooks/useInitialState';
 
-const AppContext = React.createContext();
+// const API = 'http://localhost:3001/initialState'
 
-function AppProvider(props) {
-    const {
-        item: todos,
-        saveItem: saveTodos,
-        loading,
-        error,
-    } = useInitialState('TODOS_V1', []);
-    const [searchValue, setSearchValue] = React.useState('');
+// function AppProvider() {
 
-    let searchedTodos = [];
 
-    if (!searchValue.length >= 1) {
-        searchedTodos = todos;
-    } else {
-        searchedTodos = todos.filter(todo => {
-            const todoText = todo.text.toLowerCase();
-            const searchText = searchValue.toLowerCase();
-            return todoText.includes(searchText);
-        });
-    }
+//     let searchedCovers = [];
 
-    return (
-        <AppContext.Provider value={{
-            loading,
-            error,
-            searchValue,
-            setSearchValue,
-            searchedTodos,
-        }}>
-            {props.children}
-        </AppContext.Provider>
-    );
-}
+    //Va a determinar qué covers muestra o no en la lista de búsqueda, ya sea con mayúscula o minúscula
+//     if (!searchValue.length >= 1) {
+//         searchedCovers = covers;
+//     } else {
+//         searchedCovers = covers.filter(cover => {
+//             const coverText = cover.text.toLowerCase();
+//             const searchText = searchValue.toLowerCase();
+//             return coverText.includes(searchText);
+//         });
+//     }
 
-export { AppContext, AppProvider };
+//     return (
+//         <AppContext.Provider value={{
+//             searchValue,
+//             setSearchValue,
+//             searchedCovers
+//         }}>
+//             {props.children}
+//         </AppContext.Provider>
+//     );
+// };
+
+// export { AppContext, AppProvider };

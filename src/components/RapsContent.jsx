@@ -11,15 +11,15 @@ const RapsContent = ({ rap, cover, duration, year }) => (
                     src={cover}
                 />
             </div>
-            <div>
+            <div className="">
                 <h6 className="primaryPlaylistItem-title">
                     {rap}
-                    <h6 className="primaryPlaylistItem-title">
-                        {duration}
-                    </h6>
-                    <h6 className="primaryPlaylistItem-title">
-                        {year}
-                    </h6>
+                </h6>
+                <h6 className="primaryPlaylistItem-title">
+                    {duration}
+                </h6>
+                <h6 className="primaryPlaylistItem-title">
+                    {year}
                 </h6>
             </div>
         </div>

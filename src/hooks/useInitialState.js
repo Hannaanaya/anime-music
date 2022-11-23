@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const useInitialState = (API) => {
-    const [cover, setCover] = useState({
+    const [covers, setCovers] = useState({
         mylist: [],
         doblecero: [],
         omar: [],
@@ -15,9 +15,9 @@ const useInitialState = (API) => {
     useEffect(() => {
         fetch(API)
             .then(response => response.json())
-            .then(data => setCover(data));
+            .then(data => setCovers(data));
     }, []);
-    return cover;
+    return covers;
 }
 
 export default useInitialState;

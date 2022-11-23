@@ -11,7 +11,7 @@ import './global.css';
 
 const App = () => {
     return (
-        <AppProvider>
+        <React.StrictMode>
             <BrowserRouter>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
@@ -21,7 +21,7 @@ const App = () => {
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </BrowserRouter>
-        </AppProvider>
+        </React.StrictMode>
     );
 }
 

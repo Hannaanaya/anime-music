@@ -20,8 +20,6 @@ body {
         border-bottom: 5px solid var(--lightColor);
     }
 
-    ;
-    --viewportHeight: 50vh;
 }
 
 .btn {
