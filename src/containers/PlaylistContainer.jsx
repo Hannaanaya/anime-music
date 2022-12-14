@@ -4,7 +4,6 @@ import RapList from '../components/RapList';
 import RapsContent from '../components/RapsContent';
 import useInitialState from '../hooks/useInitialState';
 import '../styles/containers/PlaylistContainer.css';
-import Search from './Search';
 
 const API = 'http://localhost:3001/initialState'
 

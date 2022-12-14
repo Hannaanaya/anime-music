@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AppProvider } from './context/AppContext';
 import Home from './pages/Home';
 import Cero from './pages/Cero';
 import Omar from './pages/Omar';

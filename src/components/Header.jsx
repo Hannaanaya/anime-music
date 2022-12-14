@@ -13,14 +13,14 @@ const Header = () => {
         <section className='Header'>
             <Search />
             <div className='gif_music'>
-                <img src="https://i.pinimg.com/originals/0c/e9/d2/0ce9d222a4ac14ac1ea08ba70defb376.gif" />
+                <img src="https://i.pinimg.com/originals/0c/e9/d2/0ce9d222a4ac14ac1ea08ba70defb376.gif" alt='gif de cabecera' />
             </div>
 
             <div className="primary-user">
                 <div className="user">
                     <p>
                         {/* <span type="text" onClick={() => setSearchLogin(!searchLogin)} >Iniciar sesión</span> */}
-                        <img src={user} alt="image-user" onClick={() => setUserLogin(!userLogin)} />
+                        <img src={user} onClick={() => setUserLogin(!userLogin)} alt="Usuario" />
                     </p>
                 </div>
             </div>

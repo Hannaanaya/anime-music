@@ -1,16 +1,16 @@
 import React from 'react';
-// import '../styles/playlist.css';
+import { Link } from 'react-router-dom';
 
 const ListPlay = () => {
-    return(
-        <li className="myPlaylist-item">
-        <a href="#">
-          <span>
-            Mejores raps y covers de anime
-          </span>
-        </a>
-        </li>
-    );
+  return (
+    <li className="myPlaylist-item">
+      <Link to="/">
+        <span>
+          Mejores raps y covers de anime
+        </span>
+      </Link >
+    </li>
+  );
 }
 
 export default ListPlay;

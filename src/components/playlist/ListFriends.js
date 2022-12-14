@@ -10,7 +10,7 @@ const ListPlay = () => {
         <React.Fragment>
             <li className="playlistFriends-item">
                 <Link to="/cero">
-                    <img src={cero} />
+                    <img src={cero} alt='foto Doblecero' />
                     <span>
                         Doblecero
                     </span>
@@ -19,7 +19,7 @@ const ListPlay = () => {
 
             <li className="playlistFriends-item">
                 <a href="/omar">
-                    <img src={omar} />
+                    <img src={omar} alt='foto Omar' />
                     <span>
                         Omar Cában
                     </span>
@@ -27,7 +27,7 @@ const ListPlay = () => {
             </li>
             <li className="playlistFriends-item">
                 <a href="/david">
-                    <img src={david} />
+                    <img src={david} alt='foto David' />
                     <span>
                         David Delgado
                     </span>

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 // import AppContext from '../context/AppContext';
 import '../styles/containers/Login.css';
 

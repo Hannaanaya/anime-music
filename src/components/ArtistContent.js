@@ -3,13 +3,14 @@ import { Player } from 'video-react';
 import "../../node_modules/video-react/dist/video-react.css";
 import '../styles/pages/ArtistContent.css';
 
-const ArtistContent = ({ rap, cover, duration, year }) => (
+const ArtistContent = ({ ima, rap, cover, duration, year }) => (
     <div className="ArtistContent">
         <div className="ArtistContentItem">
-            <div className="ArtistContentItem-image">
+            <div className="ArtistContentItem-image" style={{ width: '250px' }}>
                 <Player playsInline
                     className='react-player'
-                    src={cover}
+                    poster={ima}
+                    url={cover}
                 />
             </div>
             <div>
